@@ -1,0 +1,103 @@
+:root {
+    --branding-color: #e4abab;
+    --secondary-color: #fafafa;;
+    --heading-font-family: 'Raleway Dots', cursive;
+    --default-font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: rgb(12, 175, 121);
+    color: rgb(68, 59, 59);
+    padding: 40px;
+    font-family: var(--default-font-family);
+    max-width: 100%;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: rgb(68, 59, 59);
+    font-family: var (--heading-font-family);
+}
+
+h1 {
+    color: var(--branding-color);
+    font-size: 86px;
+    font-family: var(--heading-font-family);
+    font-weight: 550;
+}
+
+p {
+   font-family: var(-default-font-family)
+}
+
+.hero {
+    align: center;
+    background-color: var(--secondary-color);
+    max-width: 800px auto;
+    padding: 30px 40px 40px 40px;
+    text-align: center;
+}
+
+.hero p { 
+   font-size: 36px; 
+   margin: 0;
+}
+
+.hero h2 {
+   font-family: var(--default-font-family);
+   font-weight: normal;
+   font-size: 24px;
+   line-height: 1;;
+}
+
+#nav-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex: 1;
+}
+
+.hero a {
+    color: var(--branding-color);   
+    border: none;
+}
+.hero a:hover {
+    background-color: var(--branding-color);
+    color: var(--secondary-color);
+    transition: all 200ms ease-in-out;
+    flex: 1;
+}
+
+
+#homepage-image {
+    max-width: 250px; 
+}
+
+#image-vera-claassens {
+    max-width: 180px;
+    border-radius: 100px;
+}
+
+ul {
+    list-style: none;
+    text-align: left;
+  }
+
+@media (max-width:576px) {
+    body {padding: 30px;}
+    .hero h1 {font-size: 50px;}
+    .hero p {font-size: 30px;}
+    #homepage-image {max-width: 200px;}
+}
+
+@media (max-width:768px) {
+    h1 { font-size: 66px;}
+}
+
+example {color: rgb(116, 116, 209);}
+
+
+
