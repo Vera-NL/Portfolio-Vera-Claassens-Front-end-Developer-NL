@@ -174,7 +174,9 @@ ul {
 
 @media (max-width:576px) {
     body {padding: 50px;}
-    .hero h1 {font-size: 40px;}
+    .hero h1 {
+        font-size: 40px;
+        font-weight:bolder;}
     .hero h3 {font-size: 30px;}
     .hero p {font-size: 16px;}
     .hero .about-me {font-size:15px;}
