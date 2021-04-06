@@ -173,13 +173,14 @@ ul {
 }
 
 @media (max-width:576px) {
-    body {padding: 100px;}
-    .hero h1 {font-size: 50px;}
+    body {padding: 50px;}
+    .hero h1 {font-size: 40px;}
+    .hero h3 {font-size: 30px;}
     .hero p {font-size: 16px;}
     .hero .about-me {font-size:15px;}
     .hero .about-content {font-size:13px;}
     .fa-7x {font-size: 4em}
-    #homepage-image {max-width: 200px;}
+    #homepage-image {max-width: 150px;}
     #image-vera-claassens {margin-top: 20px;}
 }
 
