@@ -1,13 +1,14 @@
 :root {
     --branding-color: #e4abab;
+    --primary-color: rgb(68, 59, 59);
     --secondary-color: #fafafa;;
-    --heading-font-family: 'Raleway Dots', cursive;
+    --branding-font-family: 'Raleway Dots', cursive;
     --default-font-family: 'Poppins', sans-serif;
 }
 
 body {
     background-color: rgb(12, 175, 121);
-    color: rgb(68, 59, 59);
+    color: var(--primary-color);
     padding: 40px;
     font-family: var(--default-font-family);
     max-width: 100%;
@@ -18,15 +19,19 @@ h3,
 h4,
 h5,
 h6 {
-    color: rgb(68, 59, 59);
-    font-family: var (--heading-font-family);
+    color: var(--primary-color);
+    font-family: var(--default-font-family);
 }
 
 h1 {
     color: var(--branding-color);
     font-size: 86px;
-    font-family: var(--heading-font-family);
+    font-family: var(--branding-font-family);
     font-weight: 550;
+}
+
+h3 {
+    font-size: 36px ;
 }
 
 p {
@@ -42,7 +47,9 @@ p {
 }
 
 .hero p { 
-   font-size: 36px; 
+   font-size: 16px; 
+   padding: 5px 10px 5px 20px;
+   text-align: justify;
    margin: 0;
 }
 
@@ -51,6 +58,20 @@ p {
    font-weight: normal;
    font-size: 24px;
    line-height: 1;;
+}
+
+.about-me {
+    font-size: 25px;
+    text-align: left;
+}
+
+#email {
+    text-decoration: none;
+}
+
+#email:hover {
+    background-color: var(--secondary-color);
+    color: rgb(69, 97, 221);
 }
 
 #nav-buttons {
@@ -71,9 +92,22 @@ p {
     flex: 1;
 }
 
-
 #homepage-image {
     max-width: 250px; 
+}
+
+#about-vera {
+    justify-content: space-evenly;
+}
+
+#about-vera a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+#about-vera a:hover {
+    color: var(--branding-color);
+    background-color: var(--secondary-color);
 }
 
 #image-vera-claassens {
@@ -89,8 +123,9 @@ ul {
 @media (max-width:576px) {
     body {padding: 30px;}
     .hero h1 {font-size: 50px;}
-    .hero p {font-size: 30px;}
+    .hero p {font-size: 16px;}
     #homepage-image {max-width: 200px;}
+    #image-vera-claassens {margin-top: 20px;}
 }
 
 @media (max-width:768px) {
