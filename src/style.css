@@ -1,6 +1,6 @@
 :root {
     --branding-color: #e4abab;
-    --primary-color: rgb(68, 59, 59);
+    --primary-color: rgb(73, 67, 67);
     --secondary-color: #fafafa;;
     --branding-font-family: 'Raleway Dots', cursive;
     --default-font-family: 'Poppins', sans-serif;
@@ -62,6 +62,7 @@ p {
 
 .about-me {
     font-size: 25px;
+    font-weight: bold;
     text-align: left;
 }
 
@@ -139,21 +140,52 @@ ul {
     text-align: left;
   }
 
+@media (max-width:768px) {
+    body {padding: 100px;}
+    h1 {font-size: 66px;}
+    .hero .about-me {font-size:16px;}
+    .hero .about-content {font-size:14px;}
+    .fa-7x {font-size: 4em}
+    #image-vera-claassens {max-width: 150px;
+    margin-top: 20px;}
+}
+
 @media (max-width:576px) {
-    body {padding: 30px;}
+    body {padding: 100px;}
     .hero h1 {font-size: 50px;}
     .hero p {font-size: 16px;}
-    .fa-7x {font-size: .875em}
+    .hero .about-me {font-size:15px;}
+    .hero .about-content {font-size:13px;}
+    .fa-7x {font-size: 4em}
     #homepage-image {max-width: 200px;}
     #image-vera-claassens {margin-top: 20px;}
 }
 
-@media (max-width:768px) {
+@media (min-width:768px) {
+    body {padding: 100px;}
     h1 { font-size: 66px;}
-    .fa-7x {font-size: 6em}
+    .fa-7x {font-size: 5em}
+    .hero .about-me {padding: 10px 60px}
+    .hero .about-content {padding: 10px 60px}
 }
 
-example {color: rgb(116, 116, 209);}
+@media (min-width:992px) {
+    body {padding: 150px;}
+    .hero .about-me {padding: 10px 80px}
+    .hero .about-content {padding: 10px 80px}
+}
+
+@media (min-width:1200px) {
+    body {padding: 160px;}
+    .hero .about-me {padding: 10px 130px}
+    .hero .about-content {padding: 10px 130px}
+}
+
+@media (min-width:1400px) {
+    body {padding: 200px;}
+    .hero .about-me {padding: 10px 160px}
+    .hero .about-content {padding: 10px 160px}
+}
 
 
 
