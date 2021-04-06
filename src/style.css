@@ -81,6 +81,20 @@ p {
     flex: 1;
 }
 
+#nav-portfolio {
+    justify-content: space-evenly;
+}
+
+#portfolio a {
+    text-decoration: none;
+    background-color: var(--secondary-color);
+    color: var(--branding-color);
+}
+
+#portfolio a:hover {
+    color: var(--primary-color);
+}
+
 .hero a {
     color: var(--branding-color);   
     border: none;
@@ -115,6 +129,11 @@ p {
     border-radius: 100px;
 }
 
+.icon {
+    text-align: center;
+    color: var(--primary-color);
+}
+
 ul {
     list-style: none;
     text-align: left;
@@ -124,12 +143,14 @@ ul {
     body {padding: 30px;}
     .hero h1 {font-size: 50px;}
     .hero p {font-size: 16px;}
+    .fa-7x {font-size: .875em}
     #homepage-image {max-width: 200px;}
     #image-vera-claassens {margin-top: 20px;}
 }
 
 @media (max-width:768px) {
     h1 { font-size: 66px;}
+    .fa-7x {font-size: 6em}
 }
 
 example {color: rgb(116, 116, 209);}
