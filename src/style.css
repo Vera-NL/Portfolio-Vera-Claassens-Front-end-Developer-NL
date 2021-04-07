@@ -1,7 +1,8 @@
 :root {
     --branding-color: #e4abab;
     --primary-color: rgb(73, 67, 67);
-    --secondary-color: #fafafa;;
+    --secondary-color: #fafafa;
+    --tertiary-color: rgb(63, 63, 252);
     --branding-font-family: 'Raleway Dots', cursive;
     --default-font-family: 'Poppins', sans-serif;
 }
@@ -76,6 +77,10 @@ ul {
     transition: all 200ms ease-in-out;
 }
 
+.hero .active {
+    background-color: var(--tertiary-color);
+}
+
 .about-me {
     font-size: 25px;
     font-weight: bold;
@@ -93,7 +98,7 @@ ul {
 
 #email:hover {
     background-color: var(--secondary-color);
-    color:  rgb(63, 63, 252);
+    color:  var(--tertiary-color);
 }
 
 #nav-buttons {
@@ -104,7 +109,7 @@ ul {
 }
 
 #linked-in {
-    color: rgb(40,103,178);
+    color: var(--tertiary-color);
 }
 
 #linked-in:hover {
@@ -116,6 +121,14 @@ ul {
 }
 
 #github:hover {
+    background-color: var(--secondary-color);
+    }
+
+#e-mail {
+    color: #fbbc05;
+}
+
+#e-mail:hover {
     background-color: var(--secondary-color);
     }
 
@@ -166,7 +179,8 @@ ul {
 }
 
 #phone:hover {
-    color: rgb(63, 63, 252);  
+    color: var(--tertiary-color);
+    cursor: pointer;
 }
 
 @media (max-width:768px) {
