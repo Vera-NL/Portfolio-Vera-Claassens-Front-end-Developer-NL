@@ -140,8 +140,13 @@ ul {
     color: var(--tertiary-color);
 }
 
-#homepage-image {
-    max-width: 250px; 
+#portfolio i {
+    color: var(--primary-color);  
+}
+
+#homepage-icon {
+    color: var(--primary-color);
+    text-align: center;
 }
 
 #about-vera {
@@ -186,6 +191,7 @@ ul {
     #image-vera-claassens {
         max-width: 150px;
         margin-top: 20px;}
+    #homepage-image {text-align: center;}
 }
 
 @media (max-width:576px) {
@@ -198,7 +204,20 @@ ul {
     .hero .about-me {font-size:15px;}
     .hero .about-content {font-size:13px;}
     .fa-7x {font-size: 4em}
-    #homepage-image {max-width: 150px;}
+    #image-vera-claassens {margin-top: 20px;}
+}
+
+@media (max-width:360px) {
+    body {padding: 40px;}
+    .hero h1 {
+        font-size: 30px;
+        font-weight:bolder;}
+    .hero h2 {font-size: 22px;}
+    .hero h3 {font-size: 24px;}
+    .hero p {font-size: 15px;}
+    .hero .about-me {font-size:13px;}
+    .hero .about-content {font-size:12px;}
+    .fa-7x {font-size: 4em}
     #image-vera-claassens {margin-top: 20px;}
 }
 
