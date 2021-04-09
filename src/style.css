@@ -137,7 +137,7 @@ ul {
 }
 
 #portfolio a:hover {
-    color: var(--primary-color);
+    color: var(--tertiary-color);
 }
 
 #homepage-image {
