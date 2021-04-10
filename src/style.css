@@ -170,7 +170,7 @@ ul {
 
 #certificates a {
     color: var(--primary-color);
-    font-size: 20px;
+    font-size: 30px;
     text-decoration: none;
 }
 
@@ -179,18 +179,18 @@ ul {
     color: var(--tertiary-color);
 }
 
+#certificate-basics,
+#certificate-plus {
+    display: block;
+    margin: 0 auto;
+}
+
 #basic-skills,
 #plus-skills-1,
 #plus-skills-2 {
+    display: block;
+    margin: 0 auto;
     max-width: 220px;
-}
-
-#basic-skills {
-    margin-top: 105px;
-}
-
-#plus-skills-1 {
-    margin-top: 75px;
 }
 
 #open-source-code {
@@ -217,6 +217,9 @@ ul {
         max-width: 150px;
         margin-top: 20px;}
     #homepage-image {text-align: center;}
+    #certificates a {
+        font-size: 20px;
+    }
 }
 
 @media (max-width:576px) {
@@ -230,6 +233,12 @@ ul {
     .hero .about-content {font-size:13px;}
     .fa-7x {font-size: 4em}
     #image-vera-claassens {margin-top: 20px;}
+    #certificates a {
+        font-size: 20px;
+    }
+    #basic-skills {
+        margin-top: 5px;
+    }
 }
 
 @media (max-width:360px) {
@@ -244,6 +253,11 @@ ul {
     .hero .about-content {font-size:12px;}
     .fa-7x {font-size: 4em}
     #image-vera-claassens {margin-top: 20px;}
+    #basic-skills,
+    #plus-skills-1,
+    #plus-skills-2 {
+    max-width: 160px;
+}
 }
 
 @media (min-width:768px) {
