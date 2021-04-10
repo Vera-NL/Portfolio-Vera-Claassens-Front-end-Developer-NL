@@ -98,7 +98,7 @@ ul {
 
 #email:hover {
     background-color: var(--secondary-color);
-    color:  var(--tertiary-color);
+    color: var(--tertiary-color);
 }
 
 #nav-buttons {
@@ -168,6 +168,31 @@ ul {
     max-width: 180px;
 }
 
+#certificates a {
+    color: var(--primary-color);
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#certificates a:hover {
+    background-color: var(--secondary-color);
+    color: var(--tertiary-color);
+}
+
+#basic-skills,
+#plus-skills-1,
+#plus-skills-2 {
+    max-width: 220px;
+}
+
+#basic-skills {
+    margin-top: 105px;
+}
+
+#plus-skills-1 {
+    margin-top: 75px;
+}
+
 #open-source-code {
     color: rgb(63, 63, 252);
     text-decoration: none;
@@ -184,7 +209,7 @@ ul {
 
 @media (max-width:768px) {
     body {padding: 100px;}
-    h1 {font-size: 66px;}
+    h1 {font-size: 60px;}
     .hero .about-me {font-size:16px;}
     .hero .about-content {font-size:14px;}
     .fa-7x {font-size: 4em}
