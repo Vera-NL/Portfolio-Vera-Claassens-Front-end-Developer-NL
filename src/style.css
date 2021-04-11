@@ -191,14 +191,17 @@ ul {
 }
 
 #certificate-basics,
-#certificate-plus {
+#certificate-plus,
+#certificate-responsive {
     display: block;
     margin: 0 auto;
 }
 
 #basic-skills,
 #plus-skills-1,
-#plus-skills-2 {
+#plus-skills-2,
+#responsive-skills-1,
+#responsive-skills-2 {
     display: block;
     margin: 0 auto;
     max-width: 220px;
@@ -263,7 +266,9 @@ ul {
     #image-vera-claassens {margin-top: 20px;}
     #basic-skills,
     #plus-skills-1,
-    #plus-skills-2 {
+    #plus-skills-2,
+    #responsive-skills-1,
+    #responsive-skills-2 {
     max-width: 160px;
 }
 }
@@ -282,7 +287,9 @@ ul {
     .hero .about-content {padding: 10px 80px}
     #basic-skills,
     #plus-skills-1,
-    #plus-skills-2 {max-width: 260px;}
+    #plus-skills-2,
+    #responsive-skills-1,
+    #responsive-skills-2 {max-width: 260px;}
 }
 
 @media (min-width:1200px) {
@@ -291,7 +298,9 @@ ul {
     .hero .about-content {padding: 10px 130px}
     #basic-skills,
     #plus-skills-1,
-    #plus-skills-2 {max-width: 320px;}
+    #plus-skills-2,
+    #responsive-skills-1,
+    #responsive-skills-2 {max-width: 320px;}
 }
 
 @media (min-width:1400px) {
@@ -300,7 +309,9 @@ ul {
     .hero .about-content {padding: 10px 160px}
     #basic-skills,
     #plus-skills-1,
-    #plus-skills-2 {max-width: 380px;}
+    #plus-skills-2,
+    #responsive-skills-1,
+    #responsive-skills-2 {max-width: 380px;}
 }
 
 
