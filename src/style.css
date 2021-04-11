@@ -168,6 +168,17 @@ ul {
     max-width: 180px;
 }
 
+#shecodes-link,
+#ocean-link {
+    text-decoration: none;
+}
+
+#shecodes-link:hover,
+#ocean-link:hover {
+    background-color: var(--secondary-color);
+    color: var(--tertiary-color);
+}
+
 #certificates a {
     color: var(--primary-color);
     font-size: 30px;
@@ -236,9 +247,6 @@ ul {
     #certificates a {
         font-size: 20px;
     }
-    #basic-skills {
-        margin-top: 5px;
-    }
 }
 
 @media (max-width:360px) {
@@ -272,18 +280,27 @@ ul {
     body {padding: 150px;}
     .hero .about-me {padding: 10px 80px}
     .hero .about-content {padding: 10px 80px}
+    #basic-skills,
+    #plus-skills-1,
+    #plus-skills-2 {max-width: 260px;}
 }
 
 @media (min-width:1200px) {
     body {padding: 160px;}
     .hero .about-me {padding: 10px 130px}
     .hero .about-content {padding: 10px 130px}
+    #basic-skills,
+    #plus-skills-1,
+    #plus-skills-2 {max-width: 320px;}
 }
 
 @media (min-width:1400px) {
     body {padding: 200px;}
     .hero .about-me {padding: 10px 160px}
     .hero .about-content {padding: 10px 160px}
+    #basic-skills,
+    #plus-skills-1,
+    #plus-skills-2 {max-width: 380px;}
 }
 
 
