@@ -180,7 +180,7 @@ ul {
 }
 
 #certificates a {
-    color: var(--primary-color);
+    color: var(--branding-color);
     font-size: 30px;
     text-decoration: none;
 }
